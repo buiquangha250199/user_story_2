@@ -1,8 +1,0 @@
-[debug] Copy resource mappings: 
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/logback.xml,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/logback.xml)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/application.conf,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/application.conf)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/evolutions,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/evolutions)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/routes,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/routes)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/evolutions/default,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/evolutions/default)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/evolutions/default/2.sql,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/evolutions/default/2.sql)
-[debug] 	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/conf/evolutions/default/1.sql,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/classes/evolutions/default/1.sql)
