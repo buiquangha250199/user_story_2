@@ -1,0 +1,15 @@
+@(listPost: List[Post])
+
+@main("View all post") {
+    <div style="text-align: center">
+        <h2 style="color: #cc0000; margin: 20px">All posts: </h2>
+        <div style="padding: 10px 10px;">
+        @for(post <- listPost) {
+            <a href="" style="font: 18px; font-weight: bold"><h1>@post.title</h1></a>
+            <p>@post.description</p>
+            <hr>
+        }
+        </div>
+
+    </div>
+}
