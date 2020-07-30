@@ -1,3 +1,5 @@
+import scalariform.formatter.preferences._
+
 name := "BBS"
 
 version := "1.0"
@@ -9,6 +11,7 @@ resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 resolvers += "Akka Snapshot Repository" at "https://repo.akka.io/snapshots/"
 
 scalaVersion := "2.12.2"
+
 
 libraryDependencies ++= Seq( jdbc , ehcache , ws , specs2 % Test , guice )
 
@@ -26,6 +29,11 @@ libraryDependencies ++= Seq(
 libraryDependencies += evolutions
 
 unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
+
+scalariformPreferences := scalariformPreferences.value
+  .setPreference(AlignSingleLineCaseStatements, true)
+  .setPreference(DoubleIndentConstructorArguments, true)
+  .setPreference(DanglingCloseParenthesis, Preserve)
 
 initialCommands := """
 import scalikejdbc._
