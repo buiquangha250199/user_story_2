@@ -1,9 +1,8 @@
 package controllers
 
+import DAO._
 import javax.inject._
 import play.api.mvc._
-
-import DAO._
 
 /**
  * This controller creates an `Action` to handle HTTP requests to the
