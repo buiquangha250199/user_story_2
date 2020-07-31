@@ -2,12 +2,14 @@
 
 @main("View all post") {
     <div style="text-align: center">
-        <h2 style="color: #cc0000; margin: 20px">All posts: </h2>
-        <div style="padding: 10px 10px;">
+        <h2 style="color: #cc0000; margin-top: 50px; font-size: large;" class="uppercase font-bold">All posts: </h2>
+        <div style="padding: 20px 20px;" >
         @for(post <- listPost) {
-            <a href="" style="font: 18px; font-weight: bold"><h1>@post.title</h1></a>
-            <p>@post.description</p>
-            <hr>
+            <div class="border-2 mt-4" style="margin: 20px 30%">
+                <a href="" style="font: 18px; font-weight: bold" class="mt-4"><h1 class="mt-4">@post.title</h1></a>
+                <p>@post.description</p>
+                <hr style="margin: 20px 30%"  class="text-blue-300">
+            </div>
         }
         </div>
 
