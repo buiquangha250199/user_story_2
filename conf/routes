@@ -12,4 +12,5 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 # User can view post list in BBS. Posts are defined in database.
 GET     /getAllPost                 controllers.PostController.listAllPost()
 
+
       

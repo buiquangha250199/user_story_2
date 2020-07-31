@@ -12,7 +12,7 @@ import play.api.mvc._
 class PostController @Inject() (cc: ControllerComponents, postDAO: PostDAO) extends AbstractController(cc) {
 
   def listAllPost() = Action { implicit request: Request[AnyContent] =>
-    postDAO.getAll.map(posts => Ok(views.html.viewAllPost(posts))).recover({ case e: Exception => NotFound }).get
+    postDAO.getAll.map(posts => Ok(views.html.viewAllPost(posts))).get
   }
 
 }
