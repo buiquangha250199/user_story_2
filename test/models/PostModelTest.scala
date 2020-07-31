@@ -7,7 +7,7 @@ class PostModelTest extends Specification with db.DbTest {
   val post = new PostDAO
   initTestDB()
 
-  // test pass: list 2 posts
+  // test fail: list 2 posts
   "PostDao" should {
     "getAll() return a Success(List(Post))" in {
       val postList = post.getAll.get
@@ -15,7 +15,7 @@ class PostModelTest extends Specification with db.DbTest {
     }
   }
 
-  // test fail: list 6 posts
+  // test pass: list 2 posts
   "PostDao" should {
     "getAll() return a Success(List(Post))" in {
       val postList = post.getAll.get
