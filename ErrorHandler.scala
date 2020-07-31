@@ -6,7 +6,7 @@ import play.api.mvc._
 import scala.concurrent._
 
 @Singleton
-class ErrorHandlers extends HttpErrorHandler {
+class ErrorHandler extends HttpErrorHandler {
   def onClientError(request: RequestHeader, statusCode: Int, message: String): Future[Result] = {
     Future.successful(
       Status(statusCode)("A client error occurred: " + message)
