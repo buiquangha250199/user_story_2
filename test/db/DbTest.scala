@@ -6,7 +6,7 @@ import scalikejdbc.ConnectionPool
 
 trait DbTest {
   val driver = "com.mysql.cj.jdbc.Driver"
-  val url = "jdbc:mysql://localhost:3306/MyBlog"
+  val url = "jdbc:mysql://localhost:3306/MyBlogTest"
   val username = "root"
   val password = "17021237"
   val database = Databases(
