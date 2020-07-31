@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, web-assets, web-assets-test, web-plugin, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20200730152157"/>
+		date="20200731082646"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-jdbc-evolutions_2.12">
 			<revision name="2.8.2" status="release" pubdate="20200521203701" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.2/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="98">

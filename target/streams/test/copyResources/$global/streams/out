@@ -1,0 +1,12 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/images,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/images)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/javascripts,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/javascripts)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/lib,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/lib)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/stylesheets,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/stylesheets)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/images/external.png,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/images/external.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/images/favicon.png,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/images/header-pattern.png,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/images/header-pattern.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/javascripts/hello.js,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/javascripts/hello.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/lib/bbs,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/lib/bbs)[0m
+[0m[[0mdebug[0m] [0m	(/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/web/public/test/public/stylesheets/main.css,/Users/ha_bq/Desktop/tranning-ha_bq-bbs/target/scala-2.12/test-classes/public/stylesheets/main.css)[0m

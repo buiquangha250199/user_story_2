@@ -1,0 +1,12 @@
+test
+sbt test
+testOnly
+test
+~test-quick
+exit
+test
+test testDB
+testOnly testDB
+testOnly test.testDB
+test
+exit
