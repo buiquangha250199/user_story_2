@@ -13,6 +13,6 @@ object Post extends SkinnyCRUDMapper[Post] {
     description = rs.get(post.description),
     userEmail = rs.get(post.userEmail)
   )
-
   override lazy val defaultAlias: Alias[Post] = createAlias("p")
+
 }
