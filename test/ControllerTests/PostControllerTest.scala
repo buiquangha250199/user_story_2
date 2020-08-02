@@ -19,11 +19,12 @@ class PostControllerTest extends Specification with Mockito with DbTest {
 
     "render the allPosts page from a new instance of controller" in {
 
-      post.getAll returns Try(List(Post(10, "abc", "def", 1)))
+      post.getAll returns Try(List(Post(10, "abc", "def", "ha_bq123@gmail.com")))
 
       val listPosts = controller.listAllPost().apply(FakeRequest(GET, "/getAllPost"))
       status(listPosts) mustEqual  OK
       contentType(listPosts) mustEqual  Some("text/html")
+      contentAsString(listPosts) must contain("ha_bq123@gmail.com")
     }
 
   }

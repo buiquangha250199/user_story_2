@@ -8,7 +8,7 @@ trait DbTest {
   val driver = "com.mysql.cj.jdbc.Driver"
   val url = "jdbc:mysql://localhost:3306/MyBlogTest"
   val username = "root"
-  val password = "17021237"
+  val password = "root"
   val database = Databases(
     driver = driver,
     url = url,

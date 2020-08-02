@@ -7,19 +7,16 @@ class PostModelTest extends Specification with db.DbTest {
   val post = new PostDAO
   initTestDB()
 
-  // test fail: list 2 posts
+  // test pass: list 3 posts
   "PostDao" should {
     "getAll() return a Success(List(Post))" in {
       val postList = post.getAll.get
-      postList.size > 4
+      postList.size === 3
     }
-  }
 
-  // test pass: list 2 posts
-  "PostDao" should {
-    "getAll() return a Success(List(Post))" in {
+    "Have a user_email field" in {
       val postList = post.getAll.get
-      postList.size === 2
+      postList.head.toString must contain("haqh@gmail.com")
     }
   }
 

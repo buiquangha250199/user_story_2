@@ -2,9 +2,8 @@ package models
 
 import scalikejdbc._
 import skinny.orm._
-import skinny.orm.feature.associations.Association
 
-case class Post(id: Int, title: String, description: String, userId: Int)
+case class Post(id: Int, title: String, description: String, userEmail: String)
 
 object Post extends SkinnyCRUDMapper[Post] {
 
@@ -12,7 +11,7 @@ object Post extends SkinnyCRUDMapper[Post] {
     id = rs.get(post.id),
     title = rs.get(post.title),
     description = rs.get(post.description),
-    userId = rs.get(post.userId)
+    userEmail = rs.get(post.userEmail)
   )
 
   override lazy val defaultAlias: Alias[Post] = createAlias("p")
